@@ -1,0 +1,12 @@
+name: PyroVillager
+version: '1.0.0'
+main: info.plugin.minecraft.pyroVillager.PyroVillager
+api-version: '1.26'
+description: Pyrotechniker-Villager mit Raketen- und Shulker-Trades
+author: Robin
+
+commands:
+  spawnpyro:
+    description: Spawnt einen Pyrotechniker-Villager
+    permission: pyrovillager.admin
+    permission-message: Du hast keine Rechte für diesen Befehl.
